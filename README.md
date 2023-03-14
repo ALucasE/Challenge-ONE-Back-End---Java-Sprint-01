@@ -4,7 +4,7 @@
 
 <h2> Sobre el desafío </h2>
 
-Es un conversor de divisas utilizando el lenguaje Java
+Proyecto de un conversor de divisas utilizando el lenguaje Java enviado como desafio de Alura del programa Oracle ONE. Las caracteristicas solicitadas son que debe hacer las siguientes conversiones de divisas:
 
  - Convertir de Pesos Argentinos a Dólar
  - Convertir de Pesos Argentinos  a Euros
@@ -17,3 +17,18 @@ Es un conversor de divisas utilizando el lenguaje Java
  - Convertir de Libras Esterlinas a Pesos Argentinos
  - Convertir de Yen Japonés a Pesos Argentinos
  - Convertir de Won sul-coreano a Pesos Argentinos
+
+
+<h2> Tecnologías ultilizadas</h2>
+
+Java 8
+
+
+## Autores ✒️
+
+_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+
+* **Lucas Ezequiel Acosta** - *Trabajo Inicial* - [ALucasE](https://github.com/ALucasE)
+* 
+
+| :---: | :---: | :---: |
