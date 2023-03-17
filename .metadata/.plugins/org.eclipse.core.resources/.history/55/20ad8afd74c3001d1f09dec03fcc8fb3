@@ -1,0 +1,10 @@
+
+public class Divisas {
+	String nombre;
+	String simbolo;
+	String nombrePlural;
+	double equivalencia;
+	String cambioAPeso;
+	String CambioDePeso;
+
+}

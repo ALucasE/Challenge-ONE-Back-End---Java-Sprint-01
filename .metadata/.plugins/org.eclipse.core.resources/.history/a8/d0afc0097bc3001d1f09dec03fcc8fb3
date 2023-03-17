@@ -1,0 +1,46 @@
+
+public class Divisas {
+	String nombre;
+	String simbolo;
+	String nombrePlural;
+	double equivalencia;
+	String cambioAPeso;
+	String CambioDePeso;
+	
+	public Divisas(String nombre, String simbolo, String nombrePlural, double equivalencia, String cambioAPeso,
+			String cambioDePeso) {
+		super();
+		this.nombre = nombre;
+		this.simbolo = simbolo;
+		this.nombrePlural = nombrePlural;
+		this.equivalencia = equivalencia;
+		this.cambioAPeso = cambioAPeso;
+		CambioDePeso = cambioDePeso;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public String getSimbolo() {
+		return simbolo;
+	}
+	public String getNombrePlural() {
+		return nombrePlural;
+	}
+	public double getEquivalencia() {
+		return equivalencia;
+	}
+	public String getCambioAPeso() {
+		return cambioAPeso;
+	}
+	public String getCambioDePeso() {
+		return CambioDePeso;
+	}
+	public double cambiarAPesos(double input) {
+		return input*equivalencia;		
+	}
+	
+	public double cambiarDePesos(double input) {
+		return input/equivalencia;		
+	}
+
+}

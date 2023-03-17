@@ -1,0 +1,21 @@
+/*
+ * Divisas dolar = new Divisas("Dolar", "USD", "Dolares", 0.0049, "Peso argentino a Dolar", "Dolar a Peso argentino");
+		Divisas euro = new Divisas("Euro", "EUR", "Euros", 0.0047, "Peso argentino a Euros", "Euros a Peso argentino");
+		Divisas libra = new Divisas("Libra", "GBP", "Libras", 0.0041, "Peso argentino a Libras", "Libras a Peso argentino");
+		Divisas yen = new Divisas("Yen", "JPY", "Yenes", 0.66, "Peso argentino a Yenes", "Yenes a Peso argentino");
+		Divisas won = new Divisas("Won", "KRW", "Wones", 6.48, "Peso argentino a Wones", "Yenes a Peso Wones");
+*/
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Divisas dolar = new Divisas("Dolar", "USD", "Dolares", 0.0049);
+		Divisas euro = new Divisas("Euro", "EUR", "Euros", 0.0047);
+		Divisas libra = new Divisas("Libra", "GBP", "Libras", 0.0041);
+		Divisas yen = new Divisas("Yen", "JPY", "Yenes", 0.66);
+		Divisas won = new Divisas("Won", "KRW", "Wones", 6.48);
+		dolar.cambiarAPesos(50);
+
+	}
+
+}
